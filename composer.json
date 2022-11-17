@@ -1,0 +1,19 @@
+{
+    "name": "xuezhitech/tp-wechat",
+    "description": "微信相关的接口,适用于前后端分离",
+    "authors": [
+        {
+            "name": "xuezhitech",
+            "email": "jinxuezhi@xuezhi.info"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+    	"topthink/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xuezhitech\\wechat\\": "src/"
+        }
+    }
+}
